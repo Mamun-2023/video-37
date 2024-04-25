@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgb(180, 189, 220);
+  width: 75vw;
+  position: sticky;
+  top: 0;
+}
+nav li {
+  display: inline;
+
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(180, 8, 146);
+  padding-right: 25px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+/* Main section styles */
+#boxes {
+  display: flex;
+  border: 2px solid rgb(233, 14, 32);
+  background-color: rgb(179, 193, 205);
+  margin: 20px 30px;
+  width: 80%;
+}
+.box-1 {
+  display: flex;
+  width: 50%;
+  height: 345px;
+  margin: 50px;
+  background-color: burlywood;
+  margin: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 92, 241, 0.738);
+}
+.box-2 {
+  display: flex;
+  width: 50%;
+  height: 345px;
+  margin: 50px;
+  background-color: rgb(128, 74, 126);
+  margin: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color:rgb(12, 248, 169);
+}
+img{
+    width: 150px;
+   height:45%;
+    border-radius: 50%;
+    position: fixed;
+    left: 85vw;
+    top: 10vw;
+}
+/* footer related styles */
+footer{
+    background-color: rgb(75, 105, 106);
+    width:80vw ;
+    margin: 30px;
+    
+}
+footer p{
+    text-align: center;
+}
